@@ -1,0 +1,10 @@
+body {
+	background: -webkit-radial-gradient(center, ellipse cover, #58e7fd 0%, #268ab9 100%);
+	background: radial-gradient(ellipse at center, #58e7fd 0%, #268ab9 100%);
+	overflow: visible;
+}
+
+canvas {
+	width:100vw;
+	height:100vh;
+}

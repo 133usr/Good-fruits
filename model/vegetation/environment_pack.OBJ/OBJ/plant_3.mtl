@@ -1,0 +1,12 @@
+# 
+# Wavefront material file
+# Created with Kaydara FBX
+# 
+
+newmtl Green_6
+Ka 0.000000 0.000000 0.000000
+Kd 0.111709 0.321575 0.023205
+Ks 0.000000 0.000000 0.000000
+illum 2
+Ns 9.607843
+Tr 1.000000
