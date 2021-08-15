@@ -66,11 +66,11 @@ const init = () => {
 				controls.minDistance = 10;
 				controls.maxDistance = 1500;
 
-				controls.maxPolarAngle = Math.PI / 2;
+				controls.maxPolarAngle = Math.PI / 2.1;
 				controls.update();
 
 //LOAD MTL AND OBJ BY SHANE
-
+/*
 var mtlLoader = new THREE.MTLLoader();
 mtlLoader.load("model/bush_1.mtl", function(materials){
 	materials.preload();
@@ -83,7 +83,7 @@ mtlLoader.load("model/bush_1.mtl", function(materials){
 	
 });
 
-
+*/
 
 
 
@@ -323,7 +323,7 @@ class Land {
 	}
 	
 	drawGrass() {
-		const grassGeometry = new THREE.BoxGeometry(1500, 70, 1, 10, 10, 1);
+		const grassGeometry = new THREE.BoxGeometry(150, 70, 1, 10, 10, 1);
 		const grass = new THREE.Mesh(grassGeometry, this.grassMaterial);
 		grass.receiveShadow = true;
 		this.group.add(grass);
